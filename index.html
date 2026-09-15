@@ -182,7 +182,7 @@
       font-weight: 800;
     }
 
-    .shortlist {
+    .contender {
       display: inline-block;
       padding: 4px 8px;
       border-radius: 6px;
@@ -328,7 +328,7 @@
               <th>Team</th>
               <th class="num">MVP Score</th>
               <th class="num">Projected Vote Share</th>
-              <th>Shortlist</th>
+              <th>MVP Contender</th>
             </tr>
           </thead>
           <tbody id="leaderboard"></tbody>
@@ -382,7 +382,7 @@
       </p>
 
       <p class="method-note">
-        <strong>Reading the table:</strong> MVP Score summarizes the strength of a player's MVP profile on a 0–100 scale. MVP Rank is based on the model's projected ballot-point share, with MVP Score used as a tiebreaker. The “Shortlist” marker identifies the current top 13 candidates and does not change the underlying MVP Score or the projected vote share shown above.
+        <strong>Reading the table:</strong> MVP Score summarizes the strength of a player's MVP profile on a 0–100 scale. MVP Rank is based on the model's projected ballot-point share, with MVP Score used as a tiebreaker. The “MVP Contender” marker identifies the current top 5 players in the model's ranking. It is based on rank only and does not change the underlying MVP Score or projected vote share.
       </p>
     </section>
   </main>
@@ -421,7 +421,7 @@
           <td><span class="team">${escapeHtml(player.TEAM_ABBREVIATION)}</span></td>
           <td class="num score">${Number(player.MVP_SCORE).toFixed(1)}</td>
           <td class="num vote-share">${Number(player.PROJECTED_VOTE_SHARE_PCT).toFixed(1)}%</td>
-          <td>${player.IS_MVP_SHORTLIST ? '<span class="shortlist">Yes</span>' : ''}</td>
+          <td>${Number(player.MVP_RANK) <= 5 ? '<span class="contender">Top 5</span>' : ''}</td>
         </tr>
       `).join('');
 
