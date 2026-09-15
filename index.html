@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Independent WNBA analytics and calculated player metrics." />
+  <title>WNBA Analytics | 2026 MVP Score</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --text: #17191d;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #ea580c;
+      --accent-soft: #fff7ed;
+      --header: #111827;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--header);
+      color: white;
+      border-bottom: 4px solid var(--accent);
+    }
+
+    .header-inner,
+    main {
+      width: min(1100px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .header-inner {
+      padding: 28px 0 24px;
+    }
+
+    .brand {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #d1d5db;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin: 12px 0 0;
+      max-width: 720px;
+      color: #d1d5db;
+      line-height: 1.55;
+    }
+
+    main { padding: 30px 0 56px; }
+
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .toolbar-left {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    input,
+    select {
+      height: 42px;
+      border: 1px solid var(--line);
+      background: white;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 0 12px;
+      font: inherit;
+    }
+
+    input { min-width: 230px; }
+
+    .status {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    }
+
+    .table-wrap { overflow-x: auto; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+
+    th {
+      text-align: left;
+      padding: 14px 16px;
+      background: #f9fafb;
+      color: var(--muted);
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--line);
+    }
+
+    th.num,
+    td.num { text-align: right; }
+
+    td {
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: middle;
+    }
+
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: #fafafa; }
+
+    .rank {
+      width: 62px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #374151;
+    }
+
+    .player-name {
+      font-weight: 750;
+      font-size: 1rem;
+    }
+
+    .team {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 44px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      color: #4b5563;
+      font-size: 0.78rem;
+      font-weight: 750;
+      letter-spacing: 0.04em;
+    }
+
+    .score {
+      font-size: 1.08rem;
+      font-weight: 850;
+    }
+
+    .vote-share {
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    .shortlist {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: var(--accent-soft);
+      color: #c2410c;
+      font-size: 0.72rem;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .methodology {
+      margin-top: 22px;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .methodology h2 {
+      font-size: 1.05rem;
+      margin: 0 0 8px;
+    }
+
+    .methodology p {
+      color: #4b5563;
+      line-height: 1.6;
+      margin: 0;
+      max-width: 900px;
+    }
+
+    .error {
+      padding: 24px;
+      color: #b91c1c;
+      text-align: center;
+    }
+
+    footer {
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-align: center;
+      padding: 0 16px 28px;
+    }
+
+    @media (max-width: 650px) {
+      .header-inner,
+      main { width: min(100% - 20px, 1100px); }
+      .header-inner { padding-top: 22px; }
+      .toolbar { align-items: stretch; }
+      .toolbar-left { width: 100%; }
+      input { flex: 1; min-width: 0; }
+      select { width: 120px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">WNBA Analytics</div>
+      <h1>2026 MVP Score</h1>
+      <p class="subtitle">An independent, model-based ranking of WNBA MVP candidates using season performance, team success, availability, efficiency, and other player metrics.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <input id="search" type="search" placeholder="Search player or team" aria-label="Search player or team" />
+        <select id="limit" aria-label="Number of players shown">
+          <option value="10">Top 10</option>
+          <option value="25" selected>Top 25</option>
+          <option value="80">All players</option>
+        </select>
+      </div>
+      <div class="status" id="status">Loading rankings…</div>
+    </div>
+
+    <section class="card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Player</th>
+              <th>Team</th>
+              <th class="num">MVP Score</th>
+              <th class="num">Projected Vote Share</th>
+              <th>Shortlist</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard"></tbody>
+        </table>
+      </div>
+      <div id="error" class="error" hidden></div>
+    </section>
+
+    <section class="methodology">
+      <h2>What is MVP Score?</h2>
+      <p>MVP Score is a calculated rating designed to approximate the profile of a WNBA MVP candidate. The ranking is independent and is not an official WNBA award ballot. Projected vote share is a model estimate based on the MVP ranking output, not an official vote count.</p>
+    </section>
+  </main>
+
+  <footer>Independent WNBA analytics project.</footer>
+
+  <script>
+    const DATA_URL = './data/mvp_scores.json';
+
+    let allPlayers = [];
+
+    const leaderboard = document.getElementById('leaderboard');
+    const searchInput = document.getElementById('search');
+    const limitSelect = document.getElementById('limit');
+    const status = document.getElementById('status');
+    const errorBox = document.getElementById('error');
+
+    function render() {
+      const query = searchInput.value.trim().toLowerCase();
+      const limit = Number(limitSelect.value);
+
+      const filtered = allPlayers
+        .filter(player => {
+          if (!query) return true;
+          return player.PLAYER_NAME.toLowerCase().includes(query) ||
+                 player.TEAM_ABBREVIATION.toLowerCase().includes(query);
+        })
+        .slice(0, limit);
+
+      leaderboard.innerHTML = filtered.map(player => `
+        <tr>
+          <td class="rank">${player.MVP_RANK}</td>
+          <td>
+            <div class="player-name">${escapeHtml(player.PLAYER_NAME)}</div>
+          </td>
+          <td><span class="team">${escapeHtml(player.TEAM_ABBREVIATION)}</span></td>
+          <td class="num score">${Number(player.MVP_SCORE).toFixed(1)}</td>
+          <td class="num vote-share">${Number(player.PROJECTED_VOTE_SHARE_PCT).toFixed(1)}%</td>
+          <td>${player.IS_MVP_SHORTLIST ? '<span class="shortlist">Yes</span>' : ''}</td>
+        </tr>
+      `).join('');
+
+      const totalMatches = allPlayers.filter(player => {
+        if (!query) return true;
+        return player.PLAYER_NAME.toLowerCase().includes(query) ||
+               player.TEAM_ABBREVIATION.toLowerCase().includes(query);
+      }).length;
+
+      status.textContent = query
+        ? `${totalMatches} match${totalMatches === 1 ? '' : 'es'}`
+        : `${allPlayers.length} players in dataset`;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    async function loadData() {
+      try {
+        const response = await fetch(DATA_URL, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        allPlayers = await response.json();
+        allPlayers.sort((a, b) => Number(a.MVP_RANK) - Number(b.MVP_RANK));
+
+        render();
+      } catch (error) {
+        console.error(error);
+        status.textContent = 'Data unavailable';
+        errorBox.hidden = false;
+        errorBox.textContent = 'Could not load the MVP ranking data.';
+      }
+    }
+
+    searchInput.addEventListener('input', render);
+    limitSelect.addEventListener('change', render);
+
+    loadData();
+  </script>
+</body>
+</html>
