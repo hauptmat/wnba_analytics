@@ -60,7 +60,7 @@
 
     .subtitle {
       margin: 12px 0 0;
-      max-width: 720px;
+      max-width: 760px;
       color: #d1d5db;
       line-height: 1.55;
     }
@@ -192,19 +192,68 @@
       background: white;
       border: 1px solid var(--line);
       border-radius: 12px;
-      padding: 20px;
+      padding: 24px;
     }
 
     .methodology h2 {
-      font-size: 1.05rem;
-      margin: 0 0 8px;
+      font-size: 1.2rem;
+      margin: 0 0 10px;
+    }
+
+    .methodology h3 {
+      font-size: 0.95rem;
+      margin: 24px 0 10px;
     }
 
     .methodology p {
       color: #4b5563;
-      line-height: 1.6;
+      line-height: 1.65;
       margin: 0;
-      max-width: 900px;
+      max-width: 950px;
+    }
+
+    .weight-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .weight-item {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 13px;
+      background: #f9fafb;
+    }
+
+    .weight-value {
+      display: block;
+      color: var(--accent);
+      font-size: 1.25rem;
+      font-weight: 850;
+      margin-bottom: 3px;
+    }
+
+    .weight-label {
+      display: block;
+      font-size: 0.83rem;
+      font-weight: 750;
+      line-height: 1.25;
+    }
+
+    .weight-note {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 0.74rem;
+      line-height: 1.3;
+    }
+
+    .method-note {
+      margin-top: 16px !important;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 0.9rem;
     }
 
     .error {
@@ -220,6 +269,10 @@
       padding: 0 16px 28px;
     }
 
+    @media (max-width: 800px) {
+      .weight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
     @media (max-width: 650px) {
       .header-inner,
       main { width: min(100% - 20px, 1100px); }
@@ -229,6 +282,10 @@
       input { flex: 1; min-width: 0; }
       select { width: 120px; }
     }
+
+    @media (max-width: 430px) {
+      .weight-grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
@@ -236,7 +293,7 @@
     <div class="header-inner">
       <div class="brand">WNBA Analytics</div>
       <h1>2026 MVP Score</h1>
-      <p class="subtitle">An independent, model-based ranking of WNBA MVP candidates using season performance, team success, availability, efficiency, and other player metrics.</p>
+      <p class="subtitle">An independent model that compares current WNBA MVP candidates using the statistical profile that has historically been associated with MVP voting.</p>
     </div>
   </header>
 
@@ -274,11 +331,55 @@
 
     <section class="methodology">
       <h2>What is MVP Score?</h2>
-      <p>MVP Score is a calculated rating designed to approximate the profile of a WNBA MVP candidate. The ranking is independent and is not an official WNBA award ballot. Projected vote share is a model estimate based on the MVP ranking output, not an official vote count.</p>
+      <p>
+        MVP Score is a 0–100 rating designed to measure how closely a player's current-season profile matches the type of profile that has historically earned WNBA MVP voting support. The production model was built from official MVP voting results from 2018, 2019, and 2021–2025, then applied to current-season player and team data. It is intended to describe MVP-caliber performance, not simply identify the league leader in one statistic.
+      </p>
+
+      <h3>What goes into the score?</h3>
+      <p>
+        The current production model uses five components. Player performance is evaluated relative to the current eligible candidate pool, so the score reflects how strongly a player stands out from her competition in that season.
+      </p>
+
+      <div class="weight-grid">
+        <div class="weight-item">
+          <span class="weight-value">36.6%</span>
+          <span class="weight-label">PIE</span>
+          <span class="weight-note">Overall statistical impact</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-value">26.3%</span>
+          <span class="weight-label">Scoring</span>
+          <span class="weight-note">Points per game</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-value">17.5%</span>
+          <span class="weight-label">Secondary strength</span>
+          <span class="weight-note">Rebounding or assists, whichever is stronger</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-value">11.5%</span>
+          <span class="weight-label">Team success</span>
+          <span class="weight-note">Team winning percentage</span>
+        </div>
+        <div class="weight-item">
+          <span class="weight-value">8.1%</span>
+          <span class="weight-label">Workload</span>
+          <span class="weight-note">Total minutes played</span>
+        </div>
+      </div>
+
+      <h3>What is Projected Vote Share?</h3>
+      <p>
+        Projected Vote Share is the model's estimate of how the available MVP ballot points would be distributed if the historical relationship between these inputs and MVP voting carried over to the current season. The percentages are normalized across eligible players to total 100%. It is a model output, not polling, a probability of winning, or an official WNBA vote count.
+      </p>
+
+      <p class="method-note">
+        <strong>Reading the table:</strong> MVP Score summarizes the strength of a player's MVP profile on a 0–100 scale. MVP Rank is based on the model's projected ballot-point share, with MVP Score used as a tiebreaker. The “Shortlist” marker identifies the current top 13 candidates and does not change the underlying MVP Score or the projected vote share shown above.
+      </p>
     </section>
   </main>
 
-  <footer>Independent WNBA analytics project.</footer>
+  <footer>Independent WNBA analytics project. Not affiliated with the WNBA.</footer>
 
   <script>
     const DATA_URL = './data/mvp_scores.json';
