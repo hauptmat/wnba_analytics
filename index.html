@@ -301,7 +301,7 @@
       <div class="brand">WNBA Analytics</div>
       <h1>2026 MVP Score</h1>
       <p class="subtitle">An independent model that compares current WNBA MVP candidates using the statistical profile that has historically been associated with MVP voting.</p>
-      <p class="updated-date">Last updated: September 5, 2026</p>
+      <p class="updated-date" id="updated-date">Last updated: loading…</p>
     </div>
   </header>
 
@@ -399,6 +399,7 @@
     const limitSelect = document.getElementById('limit');
     const status = document.getElementById('status');
     const errorBox = document.getElementById('error');
+    const updatedDateEl = document.getElementById('updated-date');
 
     function render() {
       const query = searchInput.value.trim().toLowerCase();
@@ -445,6 +446,16 @@
         .replaceAll("'", '&#039;');
     }
 
+    function formatUpdatedDate(isoDate) {
+      if (!isoDate) return '';
+      const [year, month, day] = isoDate.split('-').map(Number);
+      return new Date(year, month - 1, day).toLocaleDateString('en-US', {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+      });
+    }
+
     async function loadData() {
       try {
         const response = await fetch(DATA_URL, { cache: 'no-store' });
@@ -452,6 +463,7 @@
 
         allPlayers = await response.json();
         allPlayers.sort((a, b) => Number(a.MVP_RANK) - Number(b.MVP_RANK));
+        updatedDateEl.textContent = `Last updated: ${formatUpdatedDate(allPlayers[0]?.UPDATED_DATE)}`;
 
         render();
       } catch (error) {
