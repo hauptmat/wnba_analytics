@@ -1,722 +1,722 @@
 [
   {
-    "PLAYER_ID":1628932,
-    "PLAYER_NAME":"A'ja Wilson",
-    "TEAM_ABBREVIATION":"LVA",
-    "MVP_SCORE":96.2,
-    "MVP_RANK":1,
-    "PROJECTED_VOTE_SHARE_PCT":32.0,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1642286,
-    "PLAYER_NAME":"Caitlin Clark",
-    "TEAM_ABBREVIATION":"IND",
-    "MVP_SCORE":90.8,
-    "MVP_RANK":2,
-    "PROJECTED_VOTE_SHARE_PCT":11.7,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1629498,
-    "PLAYER_NAME":"Jackie Young",
-    "TEAM_ABBREVIATION":"LVA",
-    "MVP_SCORE":89.6,
-    "MVP_RANK":3,
-    "PROJECTED_VOTE_SHARE_PCT":9.3,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1643426,
-    "PLAYER_NAME":"Olivia Miles",
-    "TEAM_ABBREVIATION":"MIN",
-    "MVP_SCORE":89.5,
-    "MVP_RANK":4,
-    "PROJECTED_VOTE_SHARE_PCT":9.2,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1627668,
-    "PLAYER_NAME":"Breanna Stewart",
-    "TEAM_ABBREVIATION":"NYL",
-    "MVP_SCORE":88.0,
-    "MVP_RANK":5,
-    "PROJECTED_VOTE_SHARE_PCT":6.9,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1641648,
-    "PLAYER_NAME":"Aliyah Boston",
-    "TEAM_ABBREVIATION":"IND",
-    "MVP_SCORE":85.9,
-    "MVP_RANK":6,
-    "PROJECTED_VOTE_SHARE_PCT":4.6,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1631022,
-    "PLAYER_NAME":"Shakira Austin",
-    "TEAM_ABBREVIATION":"WAS",
-    "MVP_SCORE":85.6,
-    "MVP_RANK":7,
-    "PROJECTED_VOTE_SHARE_PCT":4.4,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1642784,
-    "PLAYER_NAME":"Paige Bueckers",
-    "TEAM_ABBREVIATION":"DAL",
-    "MVP_SCORE":84.8,
-    "MVP_RANK":8,
-    "PROJECTED_VOTE_SHARE_PCT":3.8,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":203014,
-    "PLAYER_NAME":"Nneka Ogwumike",
-    "TEAM_ABBREVIATION":"LAS",
-    "MVP_SCORE":83.4,
-    "MVP_RANK":9,
-    "PROJECTED_VOTE_SHARE_PCT":2.9,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1629491,
-    "PLAYER_NAME":"Jessica Shepard",
-    "TEAM_ABBREVIATION":"DAL",
-    "MVP_SCORE":82.8,
-    "MVP_RANK":10,
-    "PROJECTED_VOTE_SHARE_PCT":2.6,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1642291,
-    "PLAYER_NAME":"Angel Reese",
-    "TEAM_ABBREVIATION":"ATL",
-    "MVP_SCORE":82.6,
-    "MVP_RANK":11,
-    "PROJECTED_VOTE_SHARE_PCT":2.5,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1628909,
-    "PLAYER_NAME":"Kelsey Mitchell",
-    "TEAM_ABBREVIATION":"IND",
-    "MVP_SCORE":80.5,
-    "MVP_RANK":12,
-    "PROJECTED_VOTE_SHARE_PCT":1.7,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1627673,
-    "PLAYER_NAME":"Jonquel Jones",
-    "TEAM_ABBREVIATION":"NYL",
-    "MVP_SCORE":79.6,
-    "MVP_RANK":13,
-    "PROJECTED_VOTE_SHARE_PCT":1.4,
-    "IS_MVP_SHORTLIST":true
-  },
-  {
-    "PLAYER_ID":1642792,
-    "PLAYER_NAME":"Kiki Iriafen",
-    "TEAM_ABBREVIATION":"WAS",
-    "MVP_SCORE":78.1,
-    "MVP_RANK":14,
-    "PROJECTED_VOTE_SHARE_PCT":1.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":203827,
-    "PLAYER_NAME":"Natasha Howard",
-    "TEAM_ABBREVIATION":"MIN",
-    "MVP_SCORE":77.1,
-    "MVP_RANK":15,
-    "PROJECTED_VOTE_SHARE_PCT":0.9,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631007,
-    "PLAYER_NAME":"Veronica Burton",
-    "TEAM_ABBREVIATION":"GSV",
-    "MVP_SCORE":76.1,
-    "MVP_RANK":16,
-    "PROJECTED_VOTE_SHARE_PCT":0.7,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642785,
-    "PLAYER_NAME":"Sonia Citron",
-    "TEAM_ABBREVIATION":"WAS",
-    "MVP_SCORE":75.8,
-    "MVP_RANK":17,
-    "PROJECTED_VOTE_SHARE_PCT":0.7,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642289,
-    "PLAYER_NAME":"Kamilla Cardoso",
-    "TEAM_ABBREVIATION":"CHI",
-    "MVP_SCORE":75.8,
-    "MVP_RANK":18,
-    "PROJECTED_VOTE_SHARE_PCT":0.7,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631009,
-    "PLAYER_NAME":"Rhyne Howard",
-    "TEAM_ABBREVIATION":"ATL",
-    "MVP_SCORE":75.7,
-    "MVP_RANK":19,
-    "PROJECTED_VOTE_SHARE_PCT":0.7,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":203826,
-    "PLAYER_NAME":"Alyssa Thomas",
-    "TEAM_ABBREVIATION":"PHX",
-    "MVP_SCORE":75.2,
-    "MVP_RANK":20,
-    "PROJECTED_VOTE_SHARE_PCT":0.6,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1628277,
-    "PLAYER_NAME":"Allisha Gray",
-    "TEAM_ABBREVIATION":"ATL",
-    "MVP_SCORE":70.2,
-    "MVP_RANK":21,
-    "PROJECTED_VOTE_SHARE_PCT":0.2,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642304,
-    "PLAYER_NAME":"Carla Leite",
-    "TEAM_ABBREVIATION":"PDX",
-    "MVP_SCORE":69.6,
-    "MVP_RANK":22,
-    "PROJECTED_VOTE_SHARE_PCT":0.2,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642798,
-    "PLAYER_NAME":"Dominique Malonga",
-    "TEAM_ABBREVIATION":"SEA",
-    "MVP_SCORE":69.0,
-    "MVP_RANK":23,
-    "PROJECTED_VOTE_SHARE_PCT":0.2,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":203825,
-    "PLAYER_NAME":"Kayla McBride",
-    "TEAM_ABBREVIATION":"MIN",
-    "MVP_SCORE":67.2,
-    "MVP_RANK":24,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629497,
-    "PLAYER_NAME":"Marina Mabrey",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":67.0,
-    "MVP_RANK":25,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1628886,
-    "PLAYER_NAME":"Jordin Canada",
-    "TEAM_ABBREVIATION":"ATL",
-    "MVP_SCORE":66.5,
-    "MVP_RANK":26,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":204324,
-    "PLAYER_NAME":"Dearica Hamby",
-    "TEAM_ABBREVIATION":"LAS",
-    "MVP_SCORE":65.7,
-    "MVP_RANK":27,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1627675,
-    "PLAYER_NAME":"Courtney Williams",
-    "TEAM_ABBREVIATION":"MIN",
-    "MVP_SCORE":64.3,
-    "MVP_RANK":28,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1628931,
-    "PLAYER_NAME":"Gabby Williams",
-    "TEAM_ABBREVIATION":"GSV",
-    "MVP_SCORE":62.8,
-    "MVP_RANK":29,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":203833,
-    "PLAYER_NAME":"Chelsea Gray",
-    "TEAM_ABBREVIATION":"LVA",
-    "MVP_SCORE":61.9,
-    "MVP_RANK":30,
-    "PROJECTED_VOTE_SHARE_PCT":0.1,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642767,
-    "PLAYER_NAME":"Janelle Salaun",
-    "TEAM_ABBREVIATION":"GSV",
-    "MVP_SCORE":60.5,
-    "MVP_RANK":31,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631019,
-    "PLAYER_NAME":"NaLyssa Smith",
-    "TEAM_ABBREVIATION":"LVA",
-    "MVP_SCORE":59.7,
-    "MVP_RANK":32,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629567,
-    "PLAYER_NAME":"Natisha Hiedeman",
-    "TEAM_ABBREVIATION":"SEA",
-    "MVP_SCORE":59.2,
-    "MVP_RANK":33,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":201886,
-    "PLAYER_NAME":"DeWanna Bonner",
-    "TEAM_ABBREVIATION":"ATL",
-    "MVP_SCORE":56.9,
-    "MVP_RANK":34,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629481,
-    "PLAYER_NAME":"Arike Ogunbowale",
-    "TEAM_ABBREVIATION":"DAL",
-    "MVP_SCORE":56.2,
-    "MVP_RANK":35,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1627674,
-    "PLAYER_NAME":"Kahleah Copper",
-    "TEAM_ABBREVIATION":"PHX",
-    "MVP_SCORE":56.2,
-    "MVP_RANK":36,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642800,
-    "PLAYER_NAME":"Aneesah Morrow",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":55.2,
-    "MVP_RANK":37,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629477,
-    "PLAYER_NAME":"Sabrina Ionescu",
-    "TEAM_ABBREVIATION":"NYL",
-    "MVP_SCORE":55.1,
-    "MVP_RANK":38,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629524,
-    "PLAYER_NAME":"Bridget Carleton",
-    "TEAM_ABBREVIATION":"PDX",
-    "MVP_SCORE":54.4,
-    "MVP_RANK":39,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629484,
-    "PLAYER_NAME":"Megan DiLeo",
-    "TEAM_ABBREVIATION":"PDX",
-    "MVP_SCORE":52.9,
-    "MVP_RANK":40,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":204333,
-    "PLAYER_NAME":"Natasha Cloud",
-    "TEAM_ABBREVIATION":"CHI",
-    "MVP_SCORE":52.0,
-    "MVP_RANK":41,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1630442,
-    "PLAYER_NAME":"Natasha Mack",
-    "TEAM_ABBREVIATION":"PHX",
-    "MVP_SCORE":51.3,
-    "MVP_RANK":42,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631055,
-    "PLAYER_NAME":"Nyara Sabally",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":49.5,
-    "MVP_RANK":43,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631135,
-    "PLAYER_NAME":"Olivia Nelson-Ododa",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":49.2,
-    "MVP_RANK":44,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":204330,
-    "PLAYER_NAME":"Isabelle Harrison",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":48.0,
-    "MVP_RANK":45,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642290,
-    "PLAYER_NAME":"Aaliyah Edwards",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":47.3,
-    "MVP_RANK":46,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631083,
-    "PLAYER_NAME":"Emily Engstler",
-    "TEAM_ABBREVIATION":"PDX",
-    "MVP_SCORE":46.7,
-    "MVP_RANK":47,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":202664,
-    "PLAYER_NAME":"Courtney Vandersloot",
-    "TEAM_ABBREVIATION":"CHI",
-    "MVP_SCORE":45.0,
-    "MVP_RANK":48,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1630996,
-    "PLAYER_NAME":"Rae Burrell",
-    "TEAM_ABBREVIATION":"LAS",
-    "MVP_SCORE":44.8,
-    "MVP_RANK":49,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642782,
-    "PLAYER_NAME":"Sarah Ashlee Barker",
-    "TEAM_ABBREVIATION":"PDX",
-    "MVP_SCORE":44.1,
-    "MVP_RANK":50,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643428,
-    "PLAYER_NAME":"Flau'jae Johnson",
-    "TEAM_ABBREVIATION":"SEA",
-    "MVP_SCORE":44.0,
-    "MVP_RANK":51,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643445,
-    "PLAYER_NAME":"Kiki Rice",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":43.6,
-    "MVP_RANK":52,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1628922,
-    "PLAYER_NAME":"Azura Stevens",
-    "TEAM_ABBREVIATION":"CHI",
-    "MVP_SCORE":43.3,
-    "MVP_RANK":53,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631136,
-    "PLAYER_NAME":"Pauline Astier",
-    "TEAM_ABBREVIATION":"NYL",
-    "MVP_SCORE":40.4,
-    "MVP_RANK":54,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":204329,
-    "PLAYER_NAME":"Kiah Stokes",
-    "TEAM_ABBREVIATION":"GSV",
-    "MVP_SCORE":38.1,
-    "MVP_RANK":55,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631044,
-    "PLAYER_NAME":"Naz Hillmon",
-    "TEAM_ABBREVIATION":"ATL",
-    "MVP_SCORE":37.8,
-    "MVP_RANK":56,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642303,
-    "PLAYER_NAME":"Leila Lacan",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":37.5,
-    "MVP_RANK":57,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642321,
-    "PLAYER_NAME":"Sydney Taylor",
-    "TEAM_ABBREVIATION":"CHI",
-    "MVP_SCORE":36.6,
-    "MVP_RANK":58,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643425,
-    "PLAYER_NAME":"Azzi Fudd",
-    "TEAM_ABBREVIATION":"DAL",
-    "MVP_SCORE":36.5,
-    "MVP_RANK":59,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1628269,
-    "PLAYER_NAME":"Nia Coffey",
-    "TEAM_ABBREVIATION":"MIN",
-    "MVP_SCORE":35.6,
-    "MVP_RANK":60,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643443,
-    "PLAYER_NAME":"Awa Fam",
-    "TEAM_ABBREVIATION":"SEA",
-    "MVP_SCORE":35.3,
-    "MVP_RANK":61,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":203866,
-    "PLAYER_NAME":"Kayla Thornton",
-    "TEAM_ABBREVIATION":"GSV",
-    "MVP_SCORE":34.9,
-    "MVP_RANK":62,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1627700,
-    "PLAYER_NAME":"Julie Allemand",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":34.5,
-    "MVP_RANK":63,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":204365,
-    "PLAYER_NAME":"Erica Wheeler",
-    "TEAM_ABBREVIATION":"LAS",
-    "MVP_SCORE":34.1,
-    "MVP_RANK":64,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1631141,
-    "PLAYER_NAME":"Jade Melbourne",
-    "TEAM_ABBREVIATION":"SEA",
-    "MVP_SCORE":32.8,
-    "MVP_RANK":65,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643420,
-    "PLAYER_NAME":"Laura Juskaite",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":30.6,
-    "MVP_RANK":66,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629546,
-    "PLAYER_NAME":"Marine Johannes",
-    "TEAM_ABBREVIATION":"NYL",
-    "MVP_SCORE":29.6,
-    "MVP_RANK":67,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629576,
-    "PLAYER_NAME":"Maria Conde",
-    "TEAM_ABBREVIATION":"TOR",
-    "MVP_SCORE":26.0,
-    "MVP_RANK":68,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1628878,
-    "PLAYER_NAME":"Ariel Atkins",
-    "TEAM_ABBREVIATION":"LAS",
-    "MVP_SCORE":25.0,
-    "MVP_RANK":69,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629482,
-    "PLAYER_NAME":"Sophie Cunningham",
-    "TEAM_ABBREVIATION":"IND",
-    "MVP_SCORE":24.6,
-    "MVP_RANK":70,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642781,
-    "PLAYER_NAME":"Georgia Amoore",
-    "TEAM_ABBREVIATION":"WAS",
-    "MVP_SCORE":23.7,
-    "MVP_RANK":71,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643449,
-    "PLAYER_NAME":"Charlisse Leger-Walker",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":23.2,
-    "MVP_RANK":72,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1629568,
-    "PLAYER_NAME":"Kennedy Burke",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":22.3,
-    "MVP_RANK":73,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1630446,
-    "PLAYER_NAME":"Michaela Onyenwere",
-    "TEAM_ABBREVIATION":"WAS",
-    "MVP_SCORE":21.1,
-    "MVP_RANK":74,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":204319,
-    "PLAYER_NAME":"Jewell Loyd",
-    "TEAM_ABBREVIATION":"LVA",
-    "MVP_SCORE":20.5,
-    "MVP_RANK":75,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642809,
-    "PLAYER_NAME":"Saniya Rivers",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":18.5,
-    "MVP_RANK":76,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642777,
-    "PLAYER_NAME":"Monique Akoa Makani",
-    "TEAM_ABBREVIATION":"LAS",
-    "MVP_SCORE":18.3,
-    "MVP_RANK":77,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1641649,
-    "PLAYER_NAME":"Diamond Miller",
-    "TEAM_ABBREVIATION":"CON",
-    "MVP_SCORE":15.5,
-    "MVP_RANK":78,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1643493,
-    "PLAYER_NAME":"Noemie Brochant",
-    "TEAM_ABBREVIATION":"PHX",
-    "MVP_SCORE":13.5,
-    "MVP_RANK":79,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
-  },
-  {
-    "PLAYER_ID":1642292,
-    "PLAYER_NAME":"Jacy Sheldon",
-    "TEAM_ABBREVIATION":"CHI",
-    "MVP_SCORE":11.4,
-    "MVP_RANK":80,
-    "PROJECTED_VOTE_SHARE_PCT":0.0,
-    "IS_MVP_SHORTLIST":false
+    "PLAYER_ID": 1628932,
+    "PLAYER_NAME": "A'ja Wilson",
+    "TEAM_ABBREVIATION": "LVA",
+    "MVP_SCORE": 95.8,
+    "MVP_RANK": 1,
+    "PROJECTED_VOTE_SHARE_PCT": 30,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642286,
+    "PLAYER_NAME": "Caitlin Clark",
+    "TEAM_ABBREVIATION": "IND",
+    "MVP_SCORE": 90.6,
+    "MVP_RANK": 2,
+    "PROJECTED_VOTE_SHARE_PCT": 11.2,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629498,
+    "PLAYER_NAME": "Jackie Young",
+    "TEAM_ABBREVIATION": "LVA",
+    "MVP_SCORE": 89.8,
+    "MVP_RANK": 3,
+    "PROJECTED_VOTE_SHARE_PCT": 9.6,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643426,
+    "PLAYER_NAME": "Olivia Miles",
+    "TEAM_ABBREVIATION": "MIN",
+    "MVP_SCORE": 89,
+    "MVP_RANK": 4,
+    "PROJECTED_VOTE_SHARE_PCT": 8.3,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631022,
+    "PLAYER_NAME": "Shakira Austin",
+    "TEAM_ABBREVIATION": "WAS",
+    "MVP_SCORE": 88.7,
+    "MVP_RANK": 5,
+    "PROJECTED_VOTE_SHARE_PCT": 7.8,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1627668,
+    "PLAYER_NAME": "Breanna Stewart",
+    "TEAM_ABBREVIATION": "NYL",
+    "MVP_SCORE": 87.5,
+    "MVP_RANK": 6,
+    "PROJECTED_VOTE_SHARE_PCT": 6.2,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642784,
+    "PLAYER_NAME": "Paige Bueckers",
+    "TEAM_ABBREVIATION": "DAL",
+    "MVP_SCORE": 87,
+    "MVP_RANK": 7,
+    "PROJECTED_VOTE_SHARE_PCT": 5.7,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642291,
+    "PLAYER_NAME": "Angel Reese",
+    "TEAM_ABBREVIATION": "ATL",
+    "MVP_SCORE": 84,
+    "MVP_RANK": 8,
+    "PROJECTED_VOTE_SHARE_PCT": 3.3,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629491,
+    "PLAYER_NAME": "Jessica Shepard",
+    "TEAM_ABBREVIATION": "DAL",
+    "MVP_SCORE": 83.5,
+    "MVP_RANK": 9,
+    "PROJECTED_VOTE_SHARE_PCT": 2.9,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 203014,
+    "PLAYER_NAME": "Nneka Ogwumike",
+    "TEAM_ABBREVIATION": "LAS",
+    "MVP_SCORE": 82.9,
+    "MVP_RANK": 10,
+    "PROJECTED_VOTE_SHARE_PCT": 2.7,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1641648,
+    "PLAYER_NAME": "Aliyah Boston",
+    "TEAM_ABBREVIATION": "IND",
+    "MVP_SCORE": 82.8,
+    "MVP_RANK": 11,
+    "PROJECTED_VOTE_SHARE_PCT": 2.6,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642792,
+    "PLAYER_NAME": "Kiki Iriafen",
+    "TEAM_ABBREVIATION": "WAS",
+    "MVP_SCORE": 79.6,
+    "MVP_RANK": 12,
+    "PROJECTED_VOTE_SHARE_PCT": 1.4,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1627673,
+    "PLAYER_NAME": "Jonquel Jones",
+    "TEAM_ABBREVIATION": "NYL",
+    "MVP_SCORE": 78,
+    "MVP_RANK": 13,
+    "PROJECTED_VOTE_SHARE_PCT": 1.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628909,
+    "PLAYER_NAME": "Kelsey Mitchell",
+    "TEAM_ABBREVIATION": "IND",
+    "MVP_SCORE": 77.8,
+    "MVP_RANK": 14,
+    "PROJECTED_VOTE_SHARE_PCT": 1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642785,
+    "PLAYER_NAME": "Sonia Citron",
+    "TEAM_ABBREVIATION": "WAS",
+    "MVP_SCORE": 77.8,
+    "MVP_RANK": 15,
+    "PROJECTED_VOTE_SHARE_PCT": 1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 203826,
+    "PLAYER_NAME": "Alyssa Thomas",
+    "TEAM_ABBREVIATION": "PHX",
+    "MVP_SCORE": 77.3,
+    "MVP_RANK": 16,
+    "PROJECTED_VOTE_SHARE_PCT": 0.9,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631007,
+    "PLAYER_NAME": "Veronica Burton",
+    "TEAM_ABBREVIATION": "GSV",
+    "MVP_SCORE": 76,
+    "MVP_RANK": 17,
+    "PROJECTED_VOTE_SHARE_PCT": 0.7,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 203827,
+    "PLAYER_NAME": "Natasha Howard",
+    "TEAM_ABBREVIATION": "MIN",
+    "MVP_SCORE": 76,
+    "MVP_RANK": 18,
+    "PROJECTED_VOTE_SHARE_PCT": 0.7,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631009,
+    "PLAYER_NAME": "Rhyne Howard",
+    "TEAM_ABBREVIATION": "ATL",
+    "MVP_SCORE": 75.4,
+    "MVP_RANK": 19,
+    "PROJECTED_VOTE_SHARE_PCT": 0.6,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642289,
+    "PLAYER_NAME": "Kamilla Cardoso",
+    "TEAM_ABBREVIATION": "CHI",
+    "MVP_SCORE": 73.8,
+    "MVP_RANK": 20,
+    "PROJECTED_VOTE_SHARE_PCT": 0.5,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628277,
+    "PLAYER_NAME": "Allisha Gray",
+    "TEAM_ABBREVIATION": "ATL",
+    "MVP_SCORE": 72.2,
+    "MVP_RANK": 21,
+    "PROJECTED_VOTE_SHARE_PCT": 0.4,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642304,
+    "PLAYER_NAME": "Carla Leite",
+    "TEAM_ABBREVIATION": "PDX",
+    "MVP_SCORE": 71.1,
+    "MVP_RANK": 22,
+    "PROJECTED_VOTE_SHARE_PCT": 0.3,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642798,
+    "PLAYER_NAME": "Dominique Malonga",
+    "TEAM_ABBREVIATION": "SEA",
+    "MVP_SCORE": 69.4,
+    "MVP_RANK": 23,
+    "PROJECTED_VOTE_SHARE_PCT": 0.2,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 203825,
+    "PLAYER_NAME": "Kayla McBride",
+    "TEAM_ABBREVIATION": "MIN",
+    "MVP_SCORE": 67.9,
+    "MVP_RANK": 24,
+    "PROJECTED_VOTE_SHARE_PCT": 0.2,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628886,
+    "PLAYER_NAME": "Jordin Canada",
+    "TEAM_ABBREVIATION": "ATL",
+    "MVP_SCORE": 66.2,
+    "MVP_RANK": 25,
+    "PROJECTED_VOTE_SHARE_PCT": 0.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629497,
+    "PLAYER_NAME": "Marina Mabrey",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 65.2,
+    "MVP_RANK": 26,
+    "PROJECTED_VOTE_SHARE_PCT": 0.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 204324,
+    "PLAYER_NAME": "Dearica Hamby",
+    "TEAM_ABBREVIATION": "LAS",
+    "MVP_SCORE": 64.4,
+    "MVP_RANK": 27,
+    "PROJECTED_VOTE_SHARE_PCT": 0.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1627675,
+    "PLAYER_NAME": "Courtney Williams",
+    "TEAM_ABBREVIATION": "MIN",
+    "MVP_SCORE": 63.9,
+    "MVP_RANK": 28,
+    "PROJECTED_VOTE_SHARE_PCT": 0.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628931,
+    "PLAYER_NAME": "Gabby Williams",
+    "TEAM_ABBREVIATION": "GSV",
+    "MVP_SCORE": 62.2,
+    "MVP_RANK": 29,
+    "PROJECTED_VOTE_SHARE_PCT": 0.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 203833,
+    "PLAYER_NAME": "Chelsea Gray",
+    "TEAM_ABBREVIATION": "LVA",
+    "MVP_SCORE": 62.1,
+    "MVP_RANK": 30,
+    "PROJECTED_VOTE_SHARE_PCT": 0.1,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642767,
+    "PLAYER_NAME": "Janelle Salaun",
+    "TEAM_ABBREVIATION": "GSV",
+    "MVP_SCORE": 59.2,
+    "MVP_RANK": 31,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1627674,
+    "PLAYER_NAME": "Kahleah Copper",
+    "TEAM_ABBREVIATION": "PHX",
+    "MVP_SCORE": 57.5,
+    "MVP_RANK": 32,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631019,
+    "PLAYER_NAME": "NaLyssa Smith",
+    "TEAM_ABBREVIATION": "LVA",
+    "MVP_SCORE": 57.4,
+    "MVP_RANK": 33,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629481,
+    "PLAYER_NAME": "Arike Ogunbowale",
+    "TEAM_ABBREVIATION": "DAL",
+    "MVP_SCORE": 57.3,
+    "MVP_RANK": 34,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 201886,
+    "PLAYER_NAME": "DeWanna Bonner",
+    "TEAM_ABBREVIATION": "ATL",
+    "MVP_SCORE": 56.5,
+    "MVP_RANK": 35,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629567,
+    "PLAYER_NAME": "Natisha Hiedeman",
+    "TEAM_ABBREVIATION": "SEA",
+    "MVP_SCORE": 55.3,
+    "MVP_RANK": 36,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629524,
+    "PLAYER_NAME": "Bridget Carleton",
+    "TEAM_ABBREVIATION": "PDX",
+    "MVP_SCORE": 54.3,
+    "MVP_RANK": 37,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642800,
+    "PLAYER_NAME": "Aneesah Morrow",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 53.5,
+    "MVP_RANK": 38,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629477,
+    "PLAYER_NAME": "Sabrina Ionescu",
+    "TEAM_ABBREVIATION": "NYL",
+    "MVP_SCORE": 53.4,
+    "MVP_RANK": 39,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629484,
+    "PLAYER_NAME": "Megan DiLeo",
+    "TEAM_ABBREVIATION": "PDX",
+    "MVP_SCORE": 52.5,
+    "MVP_RANK": 40,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1630442,
+    "PLAYER_NAME": "Natasha Mack",
+    "TEAM_ABBREVIATION": "PHX",
+    "MVP_SCORE": 52.4,
+    "MVP_RANK": 41,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 204333,
+    "PLAYER_NAME": "Natasha Cloud",
+    "TEAM_ABBREVIATION": "CHI",
+    "MVP_SCORE": 51.2,
+    "MVP_RANK": 42,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631135,
+    "PLAYER_NAME": "Olivia Nelson-Ododa",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 50,
+    "MVP_RANK": 43,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631055,
+    "PLAYER_NAME": "Nyara Sabally",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 49.8,
+    "MVP_RANK": 44,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 204330,
+    "PLAYER_NAME": "Isabelle Harrison",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 48.8,
+    "MVP_RANK": 45,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 202664,
+    "PLAYER_NAME": "Courtney Vandersloot",
+    "TEAM_ABBREVIATION": "CHI",
+    "MVP_SCORE": 48.4,
+    "MVP_RANK": 46,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643428,
+    "PLAYER_NAME": "Flau'jae Johnson",
+    "TEAM_ABBREVIATION": "SEA",
+    "MVP_SCORE": 48.2,
+    "MVP_RANK": 47,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631083,
+    "PLAYER_NAME": "Emily Engstler",
+    "TEAM_ABBREVIATION": "PDX",
+    "MVP_SCORE": 46.8,
+    "MVP_RANK": 48,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642290,
+    "PLAYER_NAME": "Aaliyah Edwards",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 46.6,
+    "MVP_RANK": 49,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643445,
+    "PLAYER_NAME": "Kiki Rice",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 45.4,
+    "MVP_RANK": 50,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1630996,
+    "PLAYER_NAME": "Rae Burrell",
+    "TEAM_ABBREVIATION": "LAS",
+    "MVP_SCORE": 44.6,
+    "MVP_RANK": 51,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642782,
+    "PLAYER_NAME": "Sarah Ashlee Barker",
+    "TEAM_ABBREVIATION": "PDX",
+    "MVP_SCORE": 44.1,
+    "MVP_RANK": 52,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631136,
+    "PLAYER_NAME": "Pauline Astier",
+    "TEAM_ABBREVIATION": "NYL",
+    "MVP_SCORE": 40.8,
+    "MVP_RANK": 53,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628922,
+    "PLAYER_NAME": "Azura Stevens",
+    "TEAM_ABBREVIATION": "CHI",
+    "MVP_SCORE": 40.6,
+    "MVP_RANK": 54,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 204329,
+    "PLAYER_NAME": "Kiah Stokes",
+    "TEAM_ABBREVIATION": "GSV",
+    "MVP_SCORE": 40.2,
+    "MVP_RANK": 55,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631044,
+    "PLAYER_NAME": "Naz Hillmon",
+    "TEAM_ABBREVIATION": "ATL",
+    "MVP_SCORE": 38.2,
+    "MVP_RANK": 56,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642303,
+    "PLAYER_NAME": "Leila Lacan",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 37.2,
+    "MVP_RANK": 57,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642321,
+    "PLAYER_NAME": "Sydney Taylor",
+    "TEAM_ABBREVIATION": "CHI",
+    "MVP_SCORE": 36.2,
+    "MVP_RANK": 58,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628269,
+    "PLAYER_NAME": "Nia Brodie",
+    "TEAM_ABBREVIATION": "MIN",
+    "MVP_SCORE": 35.7,
+    "MVP_RANK": 59,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643443,
+    "PLAYER_NAME": "Awa Fam",
+    "TEAM_ABBREVIATION": "SEA",
+    "MVP_SCORE": 35.4,
+    "MVP_RANK": 60,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 203866,
+    "PLAYER_NAME": "Kayla Thornton",
+    "TEAM_ABBREVIATION": "GSV",
+    "MVP_SCORE": 35.1,
+    "MVP_RANK": 61,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643425,
+    "PLAYER_NAME": "Azzi Fudd",
+    "TEAM_ABBREVIATION": "DAL",
+    "MVP_SCORE": 34.2,
+    "MVP_RANK": 62,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643420,
+    "PLAYER_NAME": "Laura Juskaite",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 34.2,
+    "MVP_RANK": 63,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 204365,
+    "PLAYER_NAME": "Erica Wheeler",
+    "TEAM_ABBREVIATION": "LAS",
+    "MVP_SCORE": 33.4,
+    "MVP_RANK": 64,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1627700,
+    "PLAYER_NAME": "Julie Allemand",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 33.2,
+    "MVP_RANK": 65,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1631141,
+    "PLAYER_NAME": "Jade Melbourne",
+    "TEAM_ABBREVIATION": "SEA",
+    "MVP_SCORE": 31.3,
+    "MVP_RANK": 66,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629546,
+    "PLAYER_NAME": "Marine Johannes",
+    "TEAM_ABBREVIATION": "NYL",
+    "MVP_SCORE": 27.4,
+    "MVP_RANK": 67,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642781,
+    "PLAYER_NAME": "Georgia Amoore",
+    "TEAM_ABBREVIATION": "WAS",
+    "MVP_SCORE": 25.3,
+    "MVP_RANK": 68,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1628878,
+    "PLAYER_NAME": "Ariel Atkins",
+    "TEAM_ABBREVIATION": "LAS",
+    "MVP_SCORE": 25.1,
+    "MVP_RANK": 69,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643449,
+    "PLAYER_NAME": "Charlisse Leger-Walker",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 24.4,
+    "MVP_RANK": 70,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1630446,
+    "PLAYER_NAME": "Michaela Onyenwere",
+    "TEAM_ABBREVIATION": "WAS",
+    "MVP_SCORE": 23.2,
+    "MVP_RANK": 71,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629482,
+    "PLAYER_NAME": "Sophie Cunningham",
+    "TEAM_ABBREVIATION": "IND",
+    "MVP_SCORE": 22.9,
+    "MVP_RANK": 72,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629576,
+    "PLAYER_NAME": "Maria Conde",
+    "TEAM_ABBREVIATION": "TOR",
+    "MVP_SCORE": 22.9,
+    "MVP_RANK": 73,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1629568,
+    "PLAYER_NAME": "Kennedy Burke",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 22.3,
+    "MVP_RANK": 74,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 204319,
+    "PLAYER_NAME": "Jewell Loyd",
+    "TEAM_ABBREVIATION": "LVA",
+    "MVP_SCORE": 21.4,
+    "MVP_RANK": 75,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642809,
+    "PLAYER_NAME": "Saniya Rivers",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 18.5,
+    "MVP_RANK": 76,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1643493,
+    "PLAYER_NAME": "Noemie Brochant",
+    "TEAM_ABBREVIATION": "PHX",
+    "MVP_SCORE": 16.7,
+    "MVP_RANK": 77,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1641649,
+    "PLAYER_NAME": "Diamond Miller",
+    "TEAM_ABBREVIATION": "CON",
+    "MVP_SCORE": 16.6,
+    "MVP_RANK": 78,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642777,
+    "PLAYER_NAME": "Monique Akoa Makani",
+    "TEAM_ABBREVIATION": "LAS",
+    "MVP_SCORE": 15.6,
+    "MVP_RANK": 79,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
+  },
+  {
+    "PLAYER_ID": 1642292,
+    "PLAYER_NAME": "Jacy Sheldon",
+    "TEAM_ABBREVIATION": "CHI",
+    "MVP_SCORE": 12.5,
+    "MVP_RANK": 80,
+    "PROJECTED_VOTE_SHARE_PCT": 0,
+    "UPDATED_DATE": "2026-09-25"
   }
 ]
